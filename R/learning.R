@@ -1,8 +1,7 @@
 #Here's an example of a conflict.
 #Here's an example of a conflict round 2.
-# conflict from Git hub round 3.
-#Here's an example of a conflict round 4.
-
+#Here's an example of a conflict round 3.
+#Conflict from github 4 haha
 10
 
 # R basics ----------------------------------------------------------------
