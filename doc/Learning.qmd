@@ -1,6 +1,7 @@
 ---
 title: "Reproducible documents"
 author: "Menghan Gao"
+affiliation: "Uppsala University"
 format: html
 ---
 
@@ -64,3 +65,14 @@ nhanes_small %>%
   ) %>%
   knitr::kable(caption = "Mean values of Age and BMI for each education and diabetes status.")
 ```
+
+
+# Intro
+**Write one random short sentence under each header**
+
+## Methods and Results
+*Write one random short sentence under each header*
+```{r}
+2 + 2
+```
+
