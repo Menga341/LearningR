@@ -92,23 +92,27 @@ nhanes_small %>%
   )
 
 nhanes_small %>%
-    select(bp_sys_ave,
-           education)
+  select(
+    bp_sys_ave,
+    education
+  )
 nhanes_small %>%
-    rename(bp_sys = bp_sys_ave,
-           bp_dia = bp_dia_ave
-    )
+  rename(
+    bp_sys = bp_sys_ave,
+    bp_dia = bp_dia_ave
+  )
 
 select(nhanes_small, bmi, contains("age"))
 
 nhanes_small %>%
-    select(bmi,
-           contains("age"))
+  select(
+    bmi,
+    contains("age")
+  )
 
 blood_pressure <- select(nhanes_small, starts_with("bp_"))
 rename(blood_pressure, bp_systolic = bp_sys)
 
 nhanes_small %>%
-    select(starts_with("bp_")) %>%
-    rename(bp_systolic = bp_sys)
-
+  select(starts_with("bp_")) %>%
+  rename(bp_systolic = bp_sys)
