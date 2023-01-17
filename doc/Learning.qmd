@@ -76,3 +76,10 @@ nhanes_small %>%
 2 + 2
 ```
 
+## Insert images
+![Doggo](images/download.jpeg){#fig-dog}
+
+Cute dog in @fig-dog
+
+
+
